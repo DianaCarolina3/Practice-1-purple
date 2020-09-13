@@ -4,107 +4,129 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Diana Purple</title>
+    <link rel="stylesheet" href="assets/styles/styles.css" />
+    <link rel="icon"  type="img/png" href="../src/assets/images/118556689-laptop-a-vector-cartoon-illustration-of-a-computer-laptop-.jpg">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <header>
-      <div>
-        <h2>Portfolio DC</h2>
-        <nav>
+    <header class="header">
+      <div class="container">
+        <h2 class="titleFavicon">Portfolio DC</h2>
+        <nav class="menu">
           <ul>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#experiences">Experience</a></li>
-            <li><a href="#work">Let´s work together</a></li>
+            <li class="linkMenu"><a href="#portfolio">Portfolio</a></li>
+            <li class="linkMenu"><a href="#experiences">Experience</a></li>
+            <li class="linkMenu"><a href="#work">Let´s work together</a></li>
           </ul>
         </nav>
       </div>
     </header>
-    <section class="hero">
-      <div>
-        <figure>
-          <img alt="" src="" />
+    <section class="hero" id="portfolio">
+      <div class="container">
+        <figure class="figureImage">
+          <img class="imageHero" alt="image principal" src="../src/assets/images/computer.svg" />
         </figure>
-        <h1>
-          Hi! I'm Diana Carolina<br />Front-end developer<img alt="" src="" />
+        <h1 class="titleHero">
+          Hi! I'm <strong>Diana Carolina,</strong><br /><span>Front-end developer👩‍💻</span>
         </h1>
       </div>
     </section>
-    <section>
-      <div>
+    <section class="experiences" id="experiences">
+      <div class="container">
         <div>
-          <h2>About my experience</h2>
+          <h2 class="experiencesTitleCentral">About my experience</h2>
         </div>
-        <article>
-          <figure>
-            <img src="" alt="" />
+        <div class="containerExperiences">
+        <article class="experiencesArticle">
+          <figure class="experiencesFigure">
+            <img class="experiencesImage" src="../src/assets/images/email-marketing.jpg" alt="image experiences" />
           </figure>
-          <div>
-            <h3></h3>
-            <p>
+          <div class="experiencesContenido">
+            <h3 class="experiencesTitle">Email Marketing</h3>
+            <p class="experiencesDescription">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
               sin t nostrum, suscipit quidem laborum ipsum provident magnam nam
               illo animi voluptate iusto cum illum nihil, officia cupiditate.
               Tenetur, id qui?
             </p>
-            <button>See more</button>
+            <button class="experiencesButton">See more</button>
           </div>
         </article>
-        <article>
-          <figure>
-            <img src="" alt="" />
+        <article class="experiencesArticle">
+          <figure class="experiencesFigure">
+            <img class="experiencesImage" src="../src/assets/images/email-marketing.jpg" alt="image experiences" />
           </figure>
-          <div>
-            <h3></h3>
-            <p>
+          <div class="experiencesContenido">
+            <h3 class="experiencesTitle">Front-End Design</h3>
+            <p class="experiencesDescription">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
               sint nostrum, suscipit quidem laborum ipsum provident magnam nam
               illo animi voluptate iusto cum illum nihil, officia cupiditate.
               Tenetur, id qui?
             </p>
-            <button>See more</button>
+            <button class="experiencesButton">See more</button>
           </div>
         </article>
-        <article>
-          <figure>
-            <img src="" alt="" />
+        <article class="experiencesArticle">
+          <figure class="experiencesFigure">
+            <img class="experiencesImage" src="../src/assets/images/email-marketing.jpg" alt="image experiences" />
           </figure>
-          <div>
-            <h3></h3>
-            <p>
+          <div class="experiencesContenido">
+            <h3 class="experiencesTitle">Study in Platzi</h3>
+            <p class="experiencesDescription">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
               sint nostrum, suscipit quidem laborum ipsum provident magnam nam
               illo animi voluptate iusto cum illum nihil, officia cupiditate.
               Tenetur, id qui?
             </p>
-            <button>See more</button>
+            <button class="experiencesButton">See more</button>
           </div>
         </article>
-        <article>
-          <figure>
-            <img src="" alt="" />
+        <article class="experiencesArticle">
+          <figure class="experiencesFigure">
+            <img class="experiencesImage" src="../src/assets/images/email-marketing.jpg" alt="image experiences" />
           </figure>
-          <div>
-            <h3></h3>
-            <p>
+          <div class="experiencesContenido">
+            <h3 class="experiencesTitle">Study In SENA</h3>
+            <p class="experiencesDescription">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
               sint nostrum, suscipit quidem laborum ipsum provident magnam nam
               illo animi voluptate iusto cum illum nihil, officia cupiditate.
               Tenetur, id qui?
             </p>
-            <button>See more</button>
+            <button class="experiencesButton">See more</button>
+          </div>
           </div>
         </article>
       </div>
     </section>
-    <footer>
-      <h2>let's create something together</h2>
-      <input type="text" placeholder="your email here" />
-      <button>Send</button>
+    <footer class="footer" id="work">
+      <form action="/suscription/" class="email">
+        <h2 class="footerTitle">let's create something together</h2>
+        <input class="contact" type="text" placeholder="your email here" id="email" />
+        <button  class="button" target="_blank">Send</button>
+      </form>
       <div>
-        <a></a>
-        <a></a>
-        <a></a>
-        <a></a>
+        <a<img src="../src/assets/images/icons8-facebook.svg" alt="icons8-facebook" height="30px" width="30px"/></a>
+        <a<img src="../src/assets/images/icons8-github.svg" alt="icons8-github" height="30px" width="30px"/></a>
+        <a<img src="../src/assets/images/icons8-instagram.svg" alt="icons8-instagram" height="30px" width="30px" /></a>
+        <a<img src="../src/assets/images/icons8-twitter.svg" alt="icons8-twitter" height="30px" width="30px" /></a>
+      </div>
+      <div>
+        <p>
+          All rights reserved.Portafolio
+        </p>
+      </div>
+      <div>
+        <p>
+          Designed with 🧡<\3 <a href="https://twitter.com/DianaCa80600701"
+          >@DianaCa80600701</a
+          >
+        </p>
       </div>
     </footer>
   </body>
