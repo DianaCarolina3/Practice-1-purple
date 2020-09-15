@@ -1,0 +1,36 @@
+@media only screen and (max-width: 992px) {
+  .experiencesArticle {
+    width: 42%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .experiencesArticle {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .experiencesArticle {
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .experiencesArticle {
+    height: 430px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .experiencesArticle {
+  }
+  .experiencesDescription {
+    font-size: 15px;
+  }
+  .experiencesTitle {
+    font-size: 17px;
+  }
+  .experiencesButton {
+    height: 25px;
+  }
+}
