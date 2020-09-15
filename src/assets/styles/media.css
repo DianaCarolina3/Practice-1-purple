@@ -1,3 +1,6 @@
+@media only screen and (max-width: 1024px) {
+}
+
 @media only screen and (max-width: 992px) {
   .experiencesArticle {
     width: 42%;
@@ -6,23 +9,34 @@
 
 @media only screen and (max-width: 768px) {
   .experiencesArticle {
-    width: 75%;
+    width: 70%;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .experiencesArticle {
     width: 90%;
+    margin-bottom: 15px;
   }
 }
+
+/* acomodar header aqui */
 @media only screen and (min-width: 600px) {
   .experiencesArticle {
     height: 430px;
   }
 }
 
+@media only screen and (max-width: 375px) {
+  .experiencesArticle {
+    height: 450px;
+  }
+}
+
 @media only screen and (max-width: 320px) {
   .experiencesArticle {
+    height: 460px;
+    margin-bottom: 12px;
   }
   .experiencesDescription {
     font-size: 15px;
@@ -31,6 +45,9 @@
     font-size: 17px;
   }
   .experiencesButton {
-    height: 25px;
+    height: 35px;
+  }
+  .footer {
+    text-align: center;
   }
 }

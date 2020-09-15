@@ -16,8 +16,6 @@ body {
   justify-content: space-between;
   align-items: center;
   color: rgb(254, 192, 102);
-  padding: 1;
-  margin: 0;
 }
 
 .header a {
@@ -49,10 +47,9 @@ li {
 .hero {
   padding: 5px;
   padding-top: 70px;
+  text-align: center;
 }
 .figureImage {
-  margin-left: 39%;
-  align-items: center;
 }
 
 .imageHero {
@@ -63,7 +60,6 @@ li {
 }
 
 .titleHero {
-  margin-left: 33%;
   font-size: 2.5em;
   font-family: "Roboto";
   color: white;
@@ -111,7 +107,7 @@ h1 {
 }
 
 .experiencesArticle {
-  height: 450px;
+  height: 410px;
   width: 33%;
   margin: 1%;
   border-radius: 15px;
@@ -183,39 +179,95 @@ h1 {
 
 .footer {
   background-color: rgb(36, 8, 66);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
 }
 
 .footer form {
+  text-align: center;
 }
 
 .footerTitle {
+  color: rgb(254, 192, 102);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 595;
+}
+
+.contactButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contact {
+  border-radius: 10px;
+  border-style: none;
+  border: 1px solid;
+  padding: 1%;
+  width: 220px;
 }
 
 .button {
+  border: 1px solid;
+  border-radius: 8px;
+  border-style: inset;
+  padding: 1%;
+  width: 120px;
+  margin-top: 10px;
+  border-color: rgb(150, 148, 148);
+  color: white;
+  background-color: rgba(62, 34, 107, 0.5);
 }
 
 .linkSocial {
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
 }
 
 .linkSocialFacebook {
+  margin: 5px 5px 5px 5px;
 }
 
 .linkSocialGithub {
+  margin: 5px 5px 5px 5px;
 }
 
 .linkSocialInstagram {
+  padding-top: 9px;
+  margin: 5px 5px 5px 5px;
 }
 
 .linkSocialTwitter {
+  padding-top: 9px;
+  margin: 5px 5px 5px 5px;
+}
+
+.footerFinal {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(28, 6, 51);
+  width: 100%;
 }
 
 .designedRights {
+  justify-content: space-between;
+  display: flex;
+  color: white;
 }
 
 .designed {
+  color: white;
+}
+.designed a {
+  color: white;
+  text-decoration: none;
 }
 
 .container {
@@ -226,6 +278,5 @@ h1 {
   justify-content: inherit;
   margin: 0 auto;
   padding: 0 30px;
-  width: 100%;
   max-width: 1200px;
 }
