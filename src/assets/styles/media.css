@@ -14,9 +14,49 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .imageMenu {
+    display: initial;
+    position: fixed;
+    left: 10px;
+    width: 30px;
+  }
   .experiencesArticle {
     width: 90%;
     margin-bottom: 15px;
+  }
+  .menu {
+    position: fixed;
+    background: rgba(142, 24, 221, 0.88);
+    z-index: 4;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    margin: 0;
+  }
+  .menu ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    font-size: 30px;
+  }
+  .header a {
+    color: rgba(247 243 136);
+  }
+  .imageClose {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: initial;
+  }
+  .is-active {
+    display: flex;
   }
 }
 
@@ -28,12 +68,39 @@
 }
 
 @media only screen and (max-width: 375px) {
+  .imageHero {
+    height: 300px;
+    width: 200px;
+    padding: 0;
+    margin-top: -2em;
+  }
+  .experiencesTitleCentral {
+    margin-left: 25px;
+    color: rgb(254, 192, 102);
+    font-style: normal;
+    font-weight: bolder;
+    text-transform: uppercase;
+  }
   .experiencesArticle {
     height: 450px;
   }
 }
 
 @media only screen and (max-width: 320px) {
+  .imageHero {
+    height: 300px;
+    width: 200px;
+    padding: 0;
+    margin-top: -2em;
+    margin-left: -20px;
+  }
+  .experiencesTitleCentral {
+    margin-left: -5px;
+    color: rgb(254, 192, 102);
+    font-style: normal;
+    font-weight: bolder;
+    text-transform: uppercase;
+  }
   .experiencesArticle {
     height: 460px;
     margin-bottom: 12px;

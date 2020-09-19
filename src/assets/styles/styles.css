@@ -23,6 +23,10 @@ body {
   color: white;
 }
 
+.imageMenu {
+  display: none;
+}
+
 .titleFavicon {
   margin-left: 50px;
   font-weight: bolder;
@@ -30,9 +34,14 @@ body {
 
 .menu {
   display: flex;
+  margin-right: 30px;
 }
 
-ul,
+.imageClose {
+  display: none;
+}
+
+.header ul,
 li {
   margin: 0;
   height: inherit;
@@ -277,6 +286,7 @@ h1 {
   align-items: inherit;
   justify-content: inherit;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 0;
+  width: 100%;
   max-width: 1200px;
 }
