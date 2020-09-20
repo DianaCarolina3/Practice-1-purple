@@ -14,11 +14,11 @@
   </head>
   <body>
     <header class="header">
-      <img class="imageMenu" src="./assets/images/menu-white-18dp.svg" alt="menu">
+      <img class="imageMenu" id="menuBurger" src="./assets/images/menu-white-18dp.svg" alt="menu">
       <div class="container">
         <h2 class="titleFavicon">Portfolio DC</h2>
         <nav class="menu">
-          <img class="imageClose" src="./assets/images/close-white-18dp.svg" alt="close">
+          <img class="imageClose" id="closeMenu" src="./assets/images/close-white-18dp.svg" alt="close">
           <ul>
             <li class="linkMenu"><a href="#portfolio">Portfolio</a></li>
             <li class="linkMenu"><a href="#experiences">Experience</a></li>
@@ -37,10 +37,10 @@
         </h1>
       </div>
     </section>
-    <section class="experiences" >
-      <div class="container">
+    <section class="experiences" id="experiences">
+      <div class="container" >
         <div>
-          <h2 class="experiencesTitleCentral" id="experiences">About my experience</h2>
+          <h2 class="experiencesTitleCentral" >About my experience</h2>
         </div>
         <div class="containerExperiences">
         <article class="experiencesArticle">
@@ -149,7 +149,39 @@
       </div>
     </footer>
     <script>
-      
+      console.log('Hola mundo esta es mi segunda linea de JS');
+
+      // open menu burger
+      const menu = document.querySelector('.menu');
+      const menuBurger = document.querySelector('#menuBurger');
+      menuBurger.addEventListener('click', TextEvent);
+
+      // close menu burger
+      const imageClose = document.querySelector('.imageClose');
+      const closeMenu = document.querySelector('#closeMenu');
+      closeMenu.addEventListener('click', TextEvent);
+
+      // filter body
+      const hero = document.querySelector('.hero');
+      const experiences = document.querySelector('.experiences');
+      const footer = document.querySelector('.footer');
+
+      // funtion
+      function TextEvent () {
+        if (menu.classList.contains('is-active')) {
+          menu.classList.remove('is-active');
+          closeMenu.classList.remove('is-active');
+          hero.classList.remove ('filter-page');
+          experiences.classList.remove('filter-page');
+          footer.classList.remove('filter-page');
+        }
+          else {
+        menu.classList.add('is-active')
+        hero.classList.add ('filter-page');
+        experiences.classList.add('filter-page');
+        footer.classList.add('filter-page');
+        }
+      }
     </script>
   </body>
 </html>
