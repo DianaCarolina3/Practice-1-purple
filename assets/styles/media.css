@@ -49,6 +49,7 @@
     color: rgba(247 243 136);
   }
   .imageClose {
+    cursor: pointer;
     width: 40px;
     position: absolute;
     top: 10px;
